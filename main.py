@@ -1,0 +1,5 @@
+txt_file = open('plik.txt', 'w')
+txt_file.write('Ala ma kota')
+txt_file = open('plik.txt', 'r')
+print(txt_file.read())
+txt_file.close()
